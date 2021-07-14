@@ -1,78 +1,38 @@
 /**
  * --------------------------------------------------------------------
- * Arial
+ * Muli
  * --------------------------------------------------------------------
  */
 @font-face{
-  font-family:'Arial Regular';
+  font-family:'Muli Regular';
   font-display: auto;
-  src:local('Arial Regular'), url('fonts/Arial/arial.ttf') format('truetype');
+  src:local('Muli Regular'), url('fonts/FONT/Muli-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Muli Bold';
+  font-display: auto;
+  src:local('Muli Bold'), url('fonts/FONT/Muli-Bold.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 /**
  * --------------------------------------------------------------------
- * Verdana
+ * Muli
  * --------------------------------------------------------------------
  */
 @font-face{
-  font-family:'Verdana Regular';
+  font-family:'Playfair Display Bold';
   font-display: auto;
-  src:local('Verdana Regular'), url('fonts/Fonts/Verdana.ttf') format('truetype');
+  src:local('Playfair Display Bold'), url('fonts/FONT/PlayfairDisplay-Bold.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 @font-face{
-  font-family:'Verdana Bold';
+  font-family:'Playfair Display SemiBold Italic';
   font-display: auto;
-  src:local('Verdana Bold'), url('fonts/Fonts/Verdana-Bold.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-/**
- * --------------------------------------------------------------------
- * Roboto
- * --------------------------------------------------------------------
- */
-@font-face{
-  font-family:'Roboto Regular';
-  font-display: auto;
-  src:local('Roboto Regular'), url('fonts/Fonts/Roboto-Regular.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Black';
-  font-display: auto;
-  src:local('Roboto Black'), url('fonts/Fonts/Roboto-Black.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Bold Italic';
-  font-display: auto;
-  src:local('Roboto Bold Italic'), url('fonts/Fonts/Roboto-BoldItalic.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Bold';
-  font-display: auto;
-  src:local('Roboto Bold'), url('fonts/Fonts/Roboto-Bold.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Medium';
-  font-display: auto;
-  src:local('Roboto Medium'), url('fonts/Fonts/Roboto-Medium.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Light Italic';
-  font-display: auto;
-  src:local('Roboto Light Italic'), url('fonts/Fonts/Roboto-LightItalic.ttf') format('truetype');
+  src:local('Playfair Display SemiBold Italic'), url('fonts/FONT/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }

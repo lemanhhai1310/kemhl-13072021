@@ -1,0 +1,83 @@
+.footer{
+  background-color: #f3f3f3;
+  &__top{
+    @include media-breakpoint-up('m'){
+      padding-top: 69px;
+      padding-bottom: 0;
+    }
+    &__width{
+      @include media-breakpoint-up('m'){
+        width: 355px;
+      }
+    }
+    &__logo{
+      img{
+        //width: 223px;
+        width: 140px;
+        @include media-breakpoint-up('m'){
+          width: 180px;
+        }
+      }
+    }
+    &__title{
+      @extend .fz-30;
+      line-height: 1;
+      font-family: $font-PlayfairDisplay-Bold;
+      letter-spacing: 0.45px;
+      color: #ed0f8c;
+    }
+    &__address{
+      &__txt{
+        @extend .fz-20;
+        font-family: $font-Muli-Regular;
+        color: #2b2b2b;
+      }
+      &__icon{
+        $x:33px;
+        width: #{$x};
+        height: #{$x};
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #2b2b2b;
+      }
+      &__name{
+        @extend .footer__top__address__txt;
+        font-family: $font-Muli-Bold;
+      }
+    }
+    &__nav{
+      >li{
+        >a{
+          color: #2b2b2b;
+          @extend .fz-20;
+          font-family: $font-Muli-Regular;
+        }
+      }
+    }
+  }
+  &__bg{
+    min-height: 70px;
+    background-size: cover;
+    background-repeat: repeat-x;
+    @include media-breakpoint-up('m'){
+      min-height: 115px;
+      background-size: contain;
+    }
+  }
+  &__bottom{
+    $x:20px;
+    padding: #{$x} 0;
+    @include media-breakpoint-up('m'){
+      $x:67px;
+      padding: #{$x} 0;
+    }
+    padding-top: 0 !important;
+  }
+  &__copyRight{
+    @extend .fz-16;
+    color: #2b2b2b;
+  }
+}
