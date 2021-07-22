@@ -1,0 +1,43 @@
+.block_tintuc{
+  &__card{
+    border: solid 1px #e3e3e3;
+    background-color: #ffffff;
+    box-sizing: content-box;
+    padding: 15px;
+    &__time{
+      color: #888f96;
+      @extend .fz-10;
+      font-family: $font-Muli-SemiBold;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    &__title{
+      @extend .fz-17;
+      line-height: 1.71;
+      font-family: $font-PlayfairDisplay-Bold;
+      color: #2b2b2b;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    &__box{
+      padding-top: 6px;
+      border-top: 1px solid #e8e8e8;
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: 0;
+        display: inline-block;
+        width: 45px;
+        height: 2px;
+        background-color: #6eac1f;
+      }
+    }
+    &__link{
+      color: #888f96;
+      @extend .fz-13;
+      font-family: $font-Muli-SemiBold;
+    }
+  }
+}

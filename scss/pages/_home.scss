@@ -1,0 +1,32 @@
+.home{
+  &__box1{
+    &__title{
+      position: relative;
+      padding-bottom: 15px;
+      color: #2b2b2b;
+      @extend .fz-40;
+      font-family: $font-PlayfairDisplay-Bold;
+      margin-bottom: 40px;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 60px;
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+        height: 1px;
+        width: 50px;
+        background-color: #ed0f8c;
+      }
+    }
+  }
+  &__video{
+
+  }
+  &__kh{
+
+  }
+}
