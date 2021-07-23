@@ -60,8 +60,8 @@
                 </div>
 
                 <div class="uk-visible@s">
-                    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    <a class="uk-position-center-left-out uk-position-small block_tintuc__arrow block_tintuc__arrow--next" href="#" uk-slider-item="previous"><img src="images/icons8-left.png" alt=""></a>
+                    <a class="uk-position-center-right-out uk-position-small block_tintuc__arrow block_tintuc__arrow--prev" href="#" uk-slider-item="next"><img src="images/icons8-right.png" alt=""></a>
                 </div>
 
             </div>

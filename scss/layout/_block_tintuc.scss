@@ -40,4 +40,22 @@
       font-family: $font-Muli-SemiBold;
     }
   }
+  &__arrow{
+    background-color: #888f96;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+      background-color: #6eac1f;
+    }
+    &--next{
+
+    }
+    &--prev{
+
+    }
+  }
 }
